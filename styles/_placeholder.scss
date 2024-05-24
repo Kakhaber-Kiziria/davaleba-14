@@ -1,0 +1,11 @@
+@mixin for-nav {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 17px; 
+    font-weight: 400;
+    color: #636060;
+
+    &:hover {
+        color: rgb(109, 7, 204);
+    }
+}
