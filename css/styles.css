@@ -144,57 +144,62 @@ main #cover-image p {
     font-size: 16px;
   }
 }
-main #discover {
+main #main-div {
+  display: flex;
+  flex-flow: row wrap;
+}
+main #main-div #discover {
   margin: 130px 0 0 100px;
 }
 @media only screen and (max-width: 768px) {
-  main #discover {
+  main #main-div #discover {
     margin-left: 40px;
   }
 }
-main #discover h1 {
+main #main-div #discover h1 {
   font-size: 17px;
   font-weight: 400;
   color: #636060;
   margin-bottom: 9px;
 }
-main #discover h2 {
+main #main-div #discover h2 {
   font-size: 28px;
   font-weight: 400;
   color: #010101;
   margin-bottom: 37px;
 }
-main #discover p {
+main #main-div #discover p {
   font-size: 20px;
   font-weight: 400;
   color: #636060;
   width: 235px;
   height: 115px;
 }
-main #div {
+main #main-div #div {
   display: flex;
   flex-flow: row wrap;
   max-width: 957px;
+  margin-top: 76px;
   margin-bottom: 100px;
   margin-left: 100px;
 }
 @media only screen and (max-width: 768px) {
-  main #div {
+  main #main-div #div {
     margin-left: 40px;
   }
 }
-main #div div {
+main #main-div #div div {
   margin-top: 56px;
   margin-right: 33px;
 }
-main #div h1 {
+main #main-div #div h1 {
   font-size: 19px;
   font-weight: 400;
   color: #343232;
   margin-top: 23px;
   margin-bottom: 9px;
 }
-main #div p {
+main #main-div #div p {
   font-size: 18px;
   font-weight: 400;
   color: #636060;
