@@ -97,7 +97,6 @@ main {
     }
 
     #main-div { 
-
         @include flex;
     
         #discover {
@@ -105,7 +104,8 @@ main {
             margin: 130px 0 0 100px;
 
             @media only screen and (max-width: 768px) {
-                margin-left: 40px;
+                margin: 0 auto;
+                margin-top: 40px;
             }
     
             h1 {
@@ -139,12 +139,16 @@ main {
             margin-left: 100px;
 
             @media only screen and (max-width: 768px) {
-                margin-left: 40px;
+                margin: 0 auto;;
             }
 
             div {
                 margin-top: 56px;
                 margin-right: 33px;
+
+                @media only screen and (max-width: 768px) {
+                    margin: 20px auto;
+                }
             }
 
             h1 {

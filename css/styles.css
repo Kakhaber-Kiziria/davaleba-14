@@ -153,7 +153,8 @@ main #main-div #discover {
 }
 @media only screen and (max-width: 768px) {
   main #main-div #discover {
-    margin-left: 40px;
+    margin: 0 auto;
+    margin-top: 40px;
   }
 }
 main #main-div #discover h1 {
@@ -185,12 +186,17 @@ main #main-div #div {
 }
 @media only screen and (max-width: 768px) {
   main #main-div #div {
-    margin-left: 40px;
+    margin: 0 auto;
   }
 }
 main #main-div #div div {
   margin-top: 56px;
   margin-right: 33px;
+}
+@media only screen and (max-width: 768px) {
+  main #main-div #div div {
+    margin: 20px auto;
+  }
 }
 main #main-div #div h1 {
   font-size: 19px;
